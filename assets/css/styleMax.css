@@ -1,0 +1,199 @@
+body {
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+}
+.container {
+    width: 960px;
+    margin: 0 auto;    
+}
+.myName{
+    float: left;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    height: 35px;
+    padding: 30px 25px 25px;
+    text-align: center;     
+    font-size: 20px;
+    color: #EDF3F2;
+    margin: 0 3%;
+}
+nav li { 
+    display: inline-block; 
+    padding: 5px;    
+    font-size: 15px;
+    color: #777777;
+}
+aside li { 
+    display: inline-block; 
+    padding: 20px 0;
+}
+nav {   
+    width: 300px;    
+    float: right;
+    margin: 1%;
+    padding: 20px 0 0 0; 
+    text-align: center;      
+}
+header{    
+    margin: 5px 0 0 0;
+    overflow: auto;   
+}
+section {   
+    margin: 5% 5% 5% 3%;
+    float: left;   
+    background-color: #ffffff; 
+	max-width: 60%;
+}
+article {
+    max-width: 100%; 
+    float: left;
+    padding: 10px 20px;    
+    color: #777777;
+}
+img {    
+    height: 150px;
+    width: 150px;
+    margin: 0 20px 10px 0;
+}
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #666666;
+    padding: 30px;
+    color: #dddddd;
+    border-top: 10px solid #4aaaa5;        
+}
+aside{
+    float: left;     
+    margin: 5% 0;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    padding: 10px;    
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+#imgWrap{
+    float: left;
+}
+h1 {
+    font-size: 25px;
+    color: #4aaaa5;    
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.h1class {    
+    margin: 5px 20px 10px 20px;
+    padding: 15px 0;
+}
+.smediaImg{
+    height: 40px;
+    width: 40px;
+}
+h2{    
+    color: #4aaaa5;
+    font-size: 20px;
+    font-size: 20px;
+    padding: 10px 10px 15px 10px;  
+    border-bottom: 1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+}
+#mainContentDiv{
+    border-top: 1px solid #dddddd;   
+    background-image: url("../../assets/images/bg.png");
+    background-repeat: repeat;    
+    height: 100%;       
+    overflow: auto;
+}
+a {        
+    color: #777777;
+    text-decoration: none;
+}
+p {
+    line-height: 25px;    
+}
+#p2 {
+    text-indent: 2%;
+}
+.formatlbl{
+    font-size: 20px;
+    margin: 5px 0;	
+}
+.txtboxFrmt{
+    height: 25px;
+    text-indent: 5px;
+	max-width: 99%;
+	min-width: 400px;
+}
+#sButton{
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;
+    background-color: #4aaaa5;
+    font-size: 15px;
+    color: #EDF3F2;
+}
+#sButton:hover{
+	/*border: 2px solid #008000;
+	font-weight: bold;*/
+		
+}
+#txtAreaFrmt{
+        width: 99%;	
+        resize: none;
+}
+aside li img {
+	padding: 0 5px;
+}
+#hmDiv, #rpgDiv, #trDiv, #widDiv, #rpsDiv, #csDiv {	    	
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: 200px 150px;
+	height: 150px;
+	width: 200px;	
+	overflow: hidden;
+	text-align: center;
+    float: left;	
+	margin: 20px 20px 20px 0;	
+}
+#hmDiv:hover, #rpgDiv:hover, #trDiv:hover, #widDiv:hover, #rpsDiv:hover, #csDiv:hover {
+	background-size: 195px 145px;
+}
+
+#hmDiv { background-image: url("../../assets/images/hangman.jpg"); }
+#rpgDiv { background-image: url("../../assets/images/rpg.jpg"); }
+#trDiv { background-image: url("../../assets/images/trivia.jpg"); }
+#widDiv { background-image: url("../../assets/images/phones.png"); }
+#rpsDiv { background-image: url("../../assets/images/rpc.jpg"); } 
+#csDiv { background-image: url("../../assets/images/coming_soon.jpg"); }
+
+.sectionDivs {
+	background-color: #4aaaa5;    
+    font-weight: bold;    
+    text-align: center;     
+    font-size: 20px;
+    color: #EDF3F2;
+	position: relative;
+	top: 80%;
+	width: 200px;
+	height: 25px;	
+}
+
+.blocks {
+	display: inline-block;	
+}
+#portfolioSection{
+	padding: 0 20px;
+}
+header a:hover {
+	 text-decoration: underline;	
+}
+.porth1class{
+    margin: 20px 20px 10px 0;
+    padding: 5px 0 15px 0;
+}
+::placeholder{
+    color: #d3d3d3;
+}

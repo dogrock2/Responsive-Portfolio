@@ -1,0 +1,103 @@
+@import url("commonStyle.css");
+
+.container {
+    width: 960px;/*90%px*/
+    margin: 0 auto;    
+}
+.myName{   	
+    height: 35px;
+    padding: 30px 25px 25px;         
+    font-size: 20px;    
+    margin: 0 10%;
+}
+nav li {     
+    padding: 5px;    
+    font-size: 15px;    
+}
+aside li {      
+    padding: 20px 0;
+}
+nav {       
+    width: 300px;    
+	margin: 1%;
+    padding: 20px 0 0 0;    
+}
+header{    
+    margin: 5px 0 0 0;       
+}
+section {       
+	margin: 5% 5% 5% 10%;       
+    background-color: #ffffff; 
+}
+article {
+   	width: 500px;     
+    padding: 10px 20px;     
+}
+footer {            
+	padding: 30px;
+}
+aside{    
+    margin: 5% 0;
+    border: 1px solid #dddddd;    
+    padding: 10px;     
+}
+h1 {    
+	font-size: 25px;
+}
+.h1class {    
+    margin: 5px 20px 10px 20px;
+    padding: 15px 0;
+}
+.smediaImg{
+    height: 40px;
+    width: 40px;
+}
+#imgWrap{
+    float: none;
+}
+h2{         
+    font-size: 20px;    
+    padding: 10px 10px 15px 10px;      
+}
+p {
+    line-height: 25px;    
+}
+#p2 {
+    text-indent: 20px;
+}
+.formatlbl{
+    font-size: 20px;
+    margin: 5px 0;
+}
+.txtboxFrmt{
+    height: 25px;
+    text-indent: 5px;	
+}
+#sButton{
+    height: 40px;
+    width: 70px;
+    margin-top: 10px;   
+    font-size: 15px;    
+}
+aside li img {
+	padding: 0 5px;
+}
+#hmDiv, #rpgDiv, #trDiv, #widDiv, #rpsDiv, #csDiv { 
+	background-size: 200px 150px;
+	height: 150px;
+	width: 200px;	
+	margin: 20px 20px 20px 0;	
+}
+.sectionDivs {		    
+	font-size: 20px;    
+	top: 80%;
+	width: 200px;
+	height: 25px;	
+}
+#portfolioSection{
+	padding: 0 20px;
+}
+.porth1class{
+    margin: 20px 20px 10px 0;
+    padding: 5px 0 15px 0;
+}
