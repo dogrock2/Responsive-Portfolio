@@ -1,33 +1,35 @@
 @import url("commonStyle.css");
 
 .container {
-    width: 960px;/*90%px*/
+    width: 80%;
     margin: 0 auto;    
 }
 .myName{   	
     height: 35px;
     padding: 30px 25px 25px;         
-    font-size: 20px;    
-    margin: 0 10%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 0;        
 }
 nav li {     
-    padding: 5px;    
+    padding-right: 2px;    
     font-size: 15px;    
 }
 aside li {      
     padding: 20px 0;
 }
-nav {       
-    width: 300px;    
+nav {     
+    float: left;  
+    width: 50%;    
 	margin: 1%;
-    padding: 20px 0 0 0;    
+    padding-top: 20px;    
 }
 header{    
     margin: 5px 0 0 0;       
 }
 section {       
-	margin: 5% 5% 5% 10%;       
-    background-color: #ffffff; 
+	margin: 5% 15% 5% 5%;       
+    background-color: #ffffff;    
 }
 article {
    	width: 500px;     
@@ -37,9 +39,11 @@ footer {
 	padding: 30px;
 }
 aside{    
-    margin: 5% 0;
+    margin: 5% 5%;
     border: 1px solid #dddddd;    
     padding: 10px;     
+    clear: both; 
+    width: 50%;       
 }
 h1 {    
 	font-size: 25px;
@@ -95,7 +99,8 @@ aside li img {
 	height: 25px;	
 }
 #portfolioSection{
-	padding: 0 20px;
+    padding: 0 8% 0 5%; 
+    width: 40%;       
 }
 .porth1class{
     margin: 20px 20px 10px 0;

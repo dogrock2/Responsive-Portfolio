@@ -1,7 +1,7 @@
 @import url("commonStyle.css");
 
 .container {
-    width: 850px;/*90%px*/
+    width: 80%;
     margin: 0 auto;    
 }
 .myName{   	
@@ -17,18 +17,18 @@ nav li {
 aside li {      
     padding: 20px 0;
 }
-nav {       
-    width: 300px;    
+nav {      
+    float: left; 
+    width: 40%;    
 	margin: 1%;
-    padding: 20px 0 0 0;    
+    padding-top: 20px;    
 }
 header{    
     margin: 5px 0 0 0;       
 }
 section {       
 	margin: 5% 5% 5% 10%;       
-    background-color: #ffffff;    	
-	/*min-width: 30%;*/	
+    background-color: #ffffff; 	
 	width: 40%;
 }
 article {   	   
@@ -43,7 +43,7 @@ footer {
 aside{    
     margin: 5% 0;
     border: 1px solid #dddddd;    
-    padding: 10px;     
+    padding: 10px;         
 }
 h1 {    
 	font-size: 25px;
@@ -74,16 +74,18 @@ p {
 .formatlbl{
     font-size: 20px;
     margin: 5px 0;
+    text-align: left;
 }
 .txtboxFrmt{
     height: 25px;
-    text-indent: 5px;	
+    text-indent: 5px;
+    min-width: 10%;	
 }
 #sButton{
     height: 40px;
     width: 70px;
     margin-top: 10px;   
-    font-size: 15px;    
+    font-size: 15px;        
 }
 aside li img {
 	padding: 0 5px;
@@ -101,9 +103,13 @@ aside li img {
 	height: 25px;	
 }
 #portfolioSection{
-	padding: 0 20px;
+    padding-right: 6%;
+    width: 30%;
 }
 .porth1class{
     margin: 20px 20px 10px 0;
     padding: 5px 0 15px 0;
+}
+#bDiv {
+    text-align: left;
 }
