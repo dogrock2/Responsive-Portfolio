@@ -25,7 +25,8 @@ header{
     overflow: auto;   
 }
 section {   
-    float: left;	
+    float: left;
+    background-color: #ffffff;	
 }
 article {
     float: left;

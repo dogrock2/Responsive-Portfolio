@@ -2,7 +2,7 @@ body {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
 }
 .container {
-    width: 960px;
+    width: 80%;
     margin: 0 auto;    
 }
 .myName{
@@ -42,13 +42,13 @@ section {
     margin: 5% 5% 5% 3%;
     float: left;   
     background-color: #ffffff; 
-	max-width: 60%;
+    width: 50%;	
 }
-article {
-    max-width: 100%; 
+article {    
     float: left;
     padding: 10px 20px;    
     color: #777777;
+    width: 80%;
 }
 img {    
     height: 150px;
@@ -68,7 +68,7 @@ aside{
     margin: 5% 0;
     border: 1px solid #dddddd;
     background-color: #ffffff;
-    padding: 10px;    
+    padding: 10px;      
 }
 .clearfix::after {
     content: "";
@@ -124,8 +124,9 @@ p {
 .txtboxFrmt{
     height: 25px;
     text-indent: 5px;
+    width: 100%;
 	max-width: 99%;
-	min-width: 400px;
+	min-width: 200px;
 }
 #sButton{
     height: 40px;

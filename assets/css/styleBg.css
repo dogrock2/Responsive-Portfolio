@@ -27,12 +27,10 @@ header{
     margin: 5px 0 0 0;       
 }
 section {       
-	margin: 5% 5% 5% 10%;       
-    background-color: #ffffff; 	
+	margin: 5% 5% 5% 10%;     
 	width: 40%;
 }
-article {   	   
-    /*min-width: 30%;	*/
+article {   	       
 	width: 80%;
     padding: 10px 20px;  
     text-align: center;	

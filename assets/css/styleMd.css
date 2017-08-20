@@ -13,27 +13,28 @@
 }
 nav li {     
     padding-right: 2px;    
-    font-size: 15px;    
+    font-size: 12px;    
 }
 aside li {      
     padding: 20px 0;
 }
 nav {     
     float: left;  
-    width: 50%;    
+    width: 40%;    
 	margin: 1%;
     padding-top: 20px;    
 }
-header{    
+header {    
     margin: 5px 0 0 0;       
 }
 section {       
-	margin: 5% 15% 5% 5%;       
-    background-color: #ffffff;    
+	margin: 5% 0 5% 6%;          
+    width: 87%;   
+    text-align: center; 
 }
 article {
-   	width: 500px;     
-    padding: 10px 20px;     
+   	width: 100%;     
+    padding: 10px 20px;          
 }
 footer {            
 	padding: 30px;
@@ -43,7 +44,8 @@ aside{
     border: 1px solid #dddddd;    
     padding: 10px;     
     clear: both; 
-    width: 50%;       
+    width: 85%;  
+    text-align: center;        
 }
 h1 {    
 	font-size: 25px;
@@ -64,24 +66,37 @@ h2{
     padding: 10px 10px 15px 10px;      
 }
 p {
-    line-height: 25px;    
+    line-height: 25px;
+    width: 95%;   
 }
 #p2 {
     text-indent: 20px;
 }
 .formatlbl{
     font-size: 20px;
-    margin: 5px 0;
+    margin: 5px 3%;
+    width: 25%;
+    float: left;
 }
 .txtboxFrmt{
     height: 25px;
-    text-indent: 5px;	
+    text-indent: 5px;
+    width: 80%;       
+    margin-left: 3%;
+    float: left;
+}
+#txtAreaFrmt{
+    width: 80%;
+    float: left;
+    margin-left: 3%;
 }
 #sButton{
     height: 40px;
     width: 70px;
     margin-top: 10px;   
+    margin-left: 3%;
     font-size: 15px;    
+    float: left;    
 }
 aside li img {
 	padding: 0 5px;
@@ -99,10 +114,16 @@ aside li img {
 	height: 25px;	
 }
 #portfolioSection{
-    padding: 0 8% 0 5%; 
-    width: 40%;       
+    padding: 0 0 0 10px; 
+    width: 86%;
 }
 .porth1class{
     margin: 20px 20px 10px 0;
     padding: 5px 0 15px 0;
+}
+.blocks{
+    width: 100%;
+}
+#mainContentDiv{
+    margin: 0;
 }
